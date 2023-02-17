@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Clipboard landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,31 +16,50 @@
 </head>
 <body>
 
-  A history of everything you copy
+  <main class="container">
+    <header class="hero">
+      <div class="hero__content">
+        <img src="./images/logo.svg" alt="logo">
+        <h1 class="hero__heading">A history of everything you copy</h1>
+        <p class="hero__paragraph">
+          Clipboard allows you to track and organize everything you 
+          copy. Instantly access your clipboard on all your devices.
+        </p>
+        <div class="flex">
+          <a href="#">Download for iOS</a>
+          <a href="#">Download for Mac</a>
+        </div>
+      </div>
+    </header>
 
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
+    <section class="section section-1">
+      <h2 class="section__heading">Keep track of your snippets</h2>
+      <p class="section-paragraph">
+        Clipboard instantly stores any item you copy in the cloud, 
+        meaning you can access your snippets immediately on all your 
+        devices. Our Mac and iOS apps will help you organize everything.
+      </p>
+      <div class="flex">
+        <img src="./images/image-computer.png" alt="pc image">
+        <div class="section__characteristics">
+          <div class="characteristic-container">
+            <h3 class="section__sub-heading">Quick Search</h3>
+            <p class="section-paragraph">Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
+          <div class="characteristic-container">
+            <h3 class="section__sub-heading">iCloud Sync</h3>
+            <p class="section-paragraph">Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+          <div class="characteristic-container">
+            <h3 class="section__sub-heading">Complete History</h3>
+            <p class="section-paragraph">Retrieve any snippets from the first moment you started using the app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  Download for iOS
-  Download for Mac
 
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
-
-  Quick Search
-
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
+  </main>
 
   Access Clipboard anywhere
 
