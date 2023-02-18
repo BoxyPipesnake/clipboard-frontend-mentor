@@ -84,6 +84,11 @@ ul {
     padding: 1rem;
     border-radius: 28px;
     box-shadow: 1px 2px 2px 0px black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
 }
 
 .btn-1 {
@@ -180,7 +185,6 @@ ul {
 /* footer */
 
 .footer {
-    /* background-color: #ccc; */
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -200,9 +204,19 @@ ul {
     margin-top: 1.5rem;
 }
 
+.footer__elements > li:hover {
+    color: var(--dark-grayish-blue);
+    cursor: pointer;
+}
+
 .footer__social-icons {
     display: flex;
     gap: 3rem;
+}
+
+.footer__social-icons .social-icon:hover {
+    background-color: #ccc;
+    cursor: pointer;
 }
 
 @media (min-width: 768px){
