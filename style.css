@@ -211,7 +211,7 @@ ul {
 
 .footer__social-icons {
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 .footer__social-icons .social-icon:hover {
